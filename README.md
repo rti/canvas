@@ -17,7 +17,7 @@ Canvas is built using [Vue.js](https://vuejs.org/) and [Marked](https://marked.j
 - **Runs on local LLMs:** Works on consumer hardware with e.g. [Ollama](https://ollama.com/).
 
 ## Demo
-![](./demo.webm)
+![](./demo.mp4)
 
 ## Installation and Development
 As a prototype, Canvas can only be used in dev mode at the moment.
