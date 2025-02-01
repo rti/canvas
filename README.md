@@ -11,10 +11,9 @@ It basically mimics [OpenAI's Canvas](https://openai.com/index/introducing-canva
 https://github.com/user-attachments/assets/55b9c758-b48f-4bbf-9650-492fd867325b
 
 ## Features
-- **Lean Interface:** Easy navigation and intuitive design.
-- **Real-Time Preview:** See changes instantly as you edit your Markdown files.
-- **Undo History:** Revert any change at any time.
 - **Runs on local LLMs:** Works on consumer hardware with e.g. [Ollama](https://ollama.com/).
+- **Undo History:** Revert any change at any time.
+- **Real-Time Preview:** See changes instantly as you edit your Markdown files.
 
 ## How does it work
 Canvas connects to your local [Ollama](https://ollama.com/) instance. The LLM is prompted with the current document contents encapsulated in `<|canvas_start|>` and `<|canvas_end|>` tags and instructed via the system prompt to re-generate the document with the requested transformation applied. The returned document is rendered in the interface.
