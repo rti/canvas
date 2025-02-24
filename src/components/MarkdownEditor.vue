@@ -43,76 +43,76 @@ const preview = computed(() => {
   font-size: 12pt;
 }
 
-::v-deep strong {
+:deep(strong) {
   font-weight: bold;
 }
 
-::v-deep h1,
-::v-deep h2,
-::v-deep h3,
-::v-deep h4,
-::v-deep h5,
-::v-deep h6 {
+:deep(h1),
+:deep(h2),
+:deep(h3),
+:deep(h4),
+:deep(h5),
+:deep(h6) {
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
 
-::v-deep h1:not(:first-child),
-::v-deep h2:not(:first-child),
-::v-deep h3:not(:first-child),
-::v-deep h4:not(:first-child),
-::v-deep h5:not(:first-child),
-::v-deep h6:not(:first-child) {
+:deep(h1):not(:first-child),
+:deep(h2):not(:first-child),
+:deep(h3):not(:first-child),
+:deep(h4):not(:first-child),
+:deep(h5):not(:first-child),
+:deep(h6):not(:first-child) {
   margin-top: 0.7rem;
 }
 
-::v-deep code {
+:deep(code) {
   background-color: #dfdfdf;
   padding: 0.1rem;
   margin: 0.1rem;
   border-radius: 0.1em;
 }
 
-::v-deep pre {
+:deep(pre) {
   background-color: #dfdfdf;
   padding: 0.3rem;
   margin: 0.3rem 0;
   border-radius: 0.1em;
 }
 
-::v-deep p {
+:deep(p) {
   margin-top: 0.3rem;
 }
 
-::v-deep a {
+:deep(a) {
   color: #4caf50;
   font-weight: bold;
 }
 
-::v-deep table {
+:deep(table) {
   margin-top: 0.7rem;
   background-color: #f5f5f5;
   padding: 0rem;
 }
 
-::v-deep td,
-::v-deep th {
+:deep(td),
+:deep(th) {
   padding: 0 0.1rem;
 }
 
-::v-deep td {
+:deep(td) {
   padding: 0 0.5em;
 }
 
-::v-deep th {
+:deep(th) {
   background-color: #dfdfdf;
 }
 
-::v-deep img {
+:deep(img) {
   max-width: 100%;
 }
 
-::v-deep hr {
+:deep(hr) {
   color: #00000000;
   border-bottom: solid #dfdfdf 3px;
   margin: 1em;
