@@ -110,6 +110,8 @@ async function parseResponseChunk(
       }
     } catch (error) {
       console.error('Error parsing response chunk:', error)
+      console.error('chunk\n', chunk)
+      console.error('lines\n', lines)
     }
   }
   await parseResponseChunk(reader, responseText, canvas)
